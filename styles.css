@@ -1,0 +1,66 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", serif;
+  background: #ec6f66; 
+  background: -webkit-linear-gradient(
+    to right,
+    #f3a183,
+    #ec6f66
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    width: 800px;
+    /* height: 200px; */
+    background-color: white;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #ec6f66;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .list li {
+    list-style-type: none;
+    background-color: #e7aba7;
+    color: red;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .months-name {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .months-name input {
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .months-name button {
+    height: 30px;
+    width: 100px;
+    background: #ec6f66;
+    border: 2px solid #ec6f66;
+    margin-left: 8px;
+    color: white;
+  }
+  
