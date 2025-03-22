@@ -9,13 +9,13 @@
 
 body {
   font-family: "Quicksand", serif;
-  background: #ec6f66; 
+  /* background: #ec6f66; 
   background: -webkit-linear-gradient(
     to right,
     #f3a183,
     #ec6f66
-  );
-
+  ); */
+  background-color: #e7aba7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@ body {
     box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 20vh;
   }
   
   h1 {
@@ -39,7 +39,7 @@ body {
   .list li {
     list-style-type: none;
     background-color: #e7aba7;
-    color: red;
+    color: black;
     font-size: 24px;
     padding: 10px;
     margin-bottom: 20px;
